@@ -1,0 +1,46 @@
+$color-primario: #007bff;
+$color-fondo: #f8f9fa;
+$color-texto: #333;
+
+// Reset
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Header
+.menu-navegacion {
+    background-image: url();
+}
+
+.navbar {
+    &-navbar-expand-lg-bg-body-tertiary {
+        background-color: blueviolet;
+    }
+}
+
+// Main
+.main-class {
+    background-color: blueviolet;
+    background-image: url(../assets/fondo-pizarron.jpg);
+}
+
+// Footer
+footer {
+    .navbar {
+        &-expand-lg {
+            background-color: $color-fondo;
+            .navbar-brand {
+                color: $color-texto;
+            }
+            .nav-link {
+                color: $color-texto;
+                &:hover {
+                    color: $color-primario;
+                }
+            }
+        }
+    }
+}
